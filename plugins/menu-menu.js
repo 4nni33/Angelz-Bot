@@ -84,7 +84,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ㅤﻬ *${lenguajeGB['smsBanChats']()}* ▹ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ㅤﻬ *${lenguajeGB['smsBanUsers']()}* ▹ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 
-ৎ 🪻 ׂ ⬫ *INFO DEL USUARIO*  ָ࣪  ۰ . ¡! 
+ৎ 🍯 ׂ ⬫ *INFO DEL USUARIO*  ָ࣪  ۰ . ¡! 
 ෆ *Tipo de registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
 ෆ *Mi estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 ෆ *Registrado »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
@@ -101,16 +101,16 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ෆ *Tokens ➟* ${joincount} 🪙
 ${readMore}
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Ser Pemium*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Ser Pemium*  ָ࣪  ۰ . ¡! 
 │ *Convierte en un(a)*
 │ *Usuario(a) Premium!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 │🎟️▹ _${usedPrefix}listapremium | listprem_
 │🎟️▹ _${usedPrefix}pase premium_
 │🎟️▹ _${usedPrefix}pass premium_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *JUEGOS*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *JUEGOS*  ָ࣪  ۰ . ¡! 
 │🎡▹ _${usedPrefix}mates | matemáticas | math_
 │🎡▹ _${usedPrefix}lanzar *cara* | *cruz*
 │🎡▹ _${usedPrefix}ppt *piedra : papel : tijera*_
@@ -148,9 +148,9 @@ ${readMore}
 │🎡▹ _${usedPrefix}reto_
 │🎡▹ _${usedPrefix}multijuegos_
 │🎡▹ _${usedPrefix}juegos_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Comandos*   ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Comandos*   ָ࣪  ۰ . ¡! 
 │ *Configura si eres Propietario(a) y/o*
 │ *admin!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -181,18 +181,18 @@ ${readMore}
 │⚙️ _${usedPrefix}on *:* off *antitwitter | antitw*_
 │⚙️ _${usedPrefix}on *:* off *soloprivados | pconly*_
 │⚙️ _${usedPrefix}on *:* off *sologrupos | gconly*_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Descargas*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Descargas*  ָ࣪  ۰ . ¡! 
 │🚀▹ _${usedPrefix}play | play2 *texto o link*_
 │🚀▹ _${usedPrefix}play.1 *texto o link*_
 │🚀▹ _${usedPrefix}play.2 *texto o link*_ 
 │🚀▹ _${usedPrefix}clima *país ciudad*_
 │🚀▹ _${usedPrefix}fraseromantica_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Configuración - Grupos*  ָ࣪  ۰ . ¡! 
-│ *Mejora tú Grupo con MeiBot!!*
+╭┈┈ ୨୧ ׂ ⬫ *Configuración - Grupos*  ָ࣪  ۰ . ¡! 
+│ *Mejora tú Grupo con AngelzBot!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 │🌐▹ _${usedPrefix}add *numero*_
 │🌐▹ _${usedPrefix}sacar | ban | kick  *@tag*_
@@ -226,7 +226,7 @@ ${readMore}
 │🌐▹ _${usedPrefix}nuevoenlace | resetlink_
 │🌐▹ _${usedPrefix}on_
 │🌐▹ _${usedPrefix}off_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
 ╭┈┈  ৎ 👑 ׂ ⬫*Parejas*  ָ࣪  ۰ . ¡! 
 │ *Declarate con alguien*
@@ -238,9 +238,9 @@ ${readMore}
 │❤️▹ _${usedPrefix}aceptar | accept *@tag*_
 │❤️▹ _${usedPrefix}rechazar | decline *@tag*_
 │❤️▹ _${usedPrefix}terminar | finish *@tag*_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Stickers - Enlaces*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Stickers - Enlaces*  ָ࣪  ۰ . ¡! 
 │ *Convierte sticker en imagen!!*
 │ *Crea enlace de archivos!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -251,9 +251,9 @@ ${readMore}
 │🛰️▹ _${usedPrefix}tourl *video, imagen*_
 │🛰️▹ _${usedPrefix}toenlace  *video, imagen o audio*_
 │🛰️▹ _${usedPrefix}tts es *texto*_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Modificación - Audios*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Modificación - Audios*  ָ࣪  ۰ . ¡! 
 │ *Realiza Modificaciones*
 │ *al Audio o Nota de Voz!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -269,16 +269,16 @@ ${readMore}
 │🧰▹ _${usedPrefix}slow_
 │🧰▹ _${usedPrefix}smooth_
 │🧰▹ _${usedPrefix}tupai_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Audios*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Audios*  ָ࣪  ۰ . ¡! 
 │ *Visita el Menú de Audios!!*
 │ *Disfruta de una Gran Variedad*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 │🔊▹ _${usedPrefix}audios_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Función RPG*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Función RPG*  ָ࣪  ۰ . ¡! 
 │ *Compra, Adquiere Recuersos*
 │ *Mejora Tú Nivel y Rango!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -319,9 +319,9 @@ ${readMore}
 │⚗️▹ _${usedPrefix}cadames | mes | monthly_
 │⚗️▹ _${usedPrefix}cofre | abrircofre | coffer_
 │⚗️▹ _${usedPrefix}trabajar | work_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Stickers*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Stickers*  ָ࣪  ۰ . ¡! 
 │ *Realiza stickers o crea*
 │ *stickers con filtros!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -342,16 +342,16 @@ ${readMore}
 │🎐 _${usedPrefix}stickermarker *efecto : responder a imagen*_
 │🎐 _${usedPrefix}stickerfilter *efecto : responder a imagen*_
 │🎐 _${usedPrefix}cs *:* cs2_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Modificar Stickers*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Modificar Stickers*  ָ࣪  ۰ . ¡! 
 │ *Personaliza la información del Sticker!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 │💡 _${usedPrefix}wm *packname|author*_
 │💡 _${usedPrefix}wm *texto1|texto2*_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Stickers Dinámicos*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Stickers Dinámicos*  ָ࣪  ۰ . ¡! 
 │ *Realiza acciones con Stickers*
 │ *Etiquetando a alguien!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -360,9 +360,9 @@ ${readMore}
 │⛱️ _${usedPrefix}golpear *@tag*_
 │⛱️ _${usedPrefix}besar | kiss *@tag*_
 │⛱️ _${usedPrefix}alimentar | food *@tag*_
-╰───────────────๑🫧๑
+╰┈─┈─┈─┈─ ๑🍯๑
 
-╭┈┈  ৎ 👑 ׂ ⬫ *Menú Owner*  ָ࣪  ۰ . ¡! 
+╭┈┈ ୨୧ ׂ ⬫ *Menú Owner*  ָ࣪  ۰ . ¡! 
 │ *Comandos solo para Propietario/a!!*
 │┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 │💎 _${usedPrefix}join *enlace*_
@@ -393,7 +393,7 @@ ${readMore}
 │💎▹ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 │💎▹ _${usedPrefix}añadirxp *@tag cantidad*_
 │💎▹ _${usedPrefix}añadirgatacoins *@tag cantidad*_
-╰───────────────๑🫧๑`.trim()
+╰┈─┈─┈─┈─ ๑🍯๑`.trim()
 await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
 } catch (e) {
