@@ -75,19 +75,19 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com//master/gata.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com//master/angelz.sh | bash
 ```
 ```js
 // PERSONALIZAR INSTALACIÓN AUTOMÁTICA (En caso de una Bifurcación)
 // Parámetros editables
 
 // REFERENCIA
-"wget -O - https://raw.githubusercontent.com/4nni33/MeiBotTM/master/gata.sh | bash"
+"wget -O - https://github.com/4nni33/Angelz-Bot/master/angelz.sh | bash"
 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
-"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/gata.sh | bash"
+"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/angelz.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`gata.sh`](https://github.com/4nni33/MeiBotTM/blob/master/gata.sh)
+#### MODIFICAR ARCHIVO [`angelz.sh`](https://github.com/4nni33/MeiBotTM/blob/master/angelz.sh)
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
@@ -154,7 +154,7 @@ pm2 start index
 ### 😼 ACTUALIZAR GATABOT
 > **Note** Comandos para actualizar GataBot-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/4nni33/MeiBotTM/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://github.com/4nni33/Angelz-Bot/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en GataBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
