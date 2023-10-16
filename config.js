@@ -204,23 +204,23 @@ global.img2 = 'https://tinyurl.com/27jqx2e6.jpg';
 global.img3 = 'https://tinyurl.com/23jcbhue.jpg'; //prem
 global.img4 = 'https://tinyurl.com/23z2xqqv.jpg'; //prem
 
-global.img5 = 'https://tinyurl.com/29nok9ba.jpeg';
-global.img6 = 'https://tinyurl.com/227vqnqn.jpeg';
-global.img7 = 'https://tinyurl.com/233rvq4c.jpeg';
-global.img8 = 'https://tinyurl.com/2annkxr3.jpeg';
-global.img9 = 'https://tinyurl.com/226lfwn7.jpeg';
+global.img5 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img6 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img7 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img8 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img9 = 'https://imgur.com/a/WQRnqr3.jpeg';
 
-global.img10 = 'https://i.imgur.com/DvHoMc3.jpg';
-global.img11 = 'https://i.imgur.com/5Q1MqGD.jpg';
-global.img12 = 'https://i.imgur.com/vWnsjh8.jpg';
-global.img13 = 'https://i.imgur.com/pCfFOgw.jpeg';
-global.img14 = 'https://i.imgur.com/knBDWRA.jpeg';
-global.img15 = 'https://i.imgur.com/QrkkKx7.jpeg';
+global.img10 = 'https://imgur.com/a/WQRnqr3.jpg';
+global.img11 = 'https://imgur.com/a/WQRnqr3.jpg';
+global.img12 = 'https://imgur.com/a/WQRnqr3.jpg';
+global.img13 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img14 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img15 = 'https://imgur.com/a/WQRnqr3.jpeg';
 
-global.img16 = 'https://i.imgur.com/11MRjo4.jpeg'; //+18
+global.img16 = 'https://imgur.com/a/WQRnqr3.jpeg'; //+18
 
-global.img17 = 'https://i.imgur.com/JpYfcH0.jpeg';
-global.img18 = 'https://i.imgur.com/9yLH4W4.jpeg';
+global.img17 = 'https://imgur.com/a/WQRnqr3.jpeg';
+global.img18 = 'https://imgur.com/a/WQRnqr3.jpeg';
 
 global.logogit = 'https://tinyurl.com/2qvl9vgs';
 
